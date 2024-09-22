@@ -16,7 +16,7 @@ function App() {
   const weather = useWeatherApi(query || lastSearchedCity);
 
   useEffect(() => {
-    const cachedCity = localStorage.getItem("lastSearchedCity");
+    const cachedCity = localStorage.getItem("lastSearchedCity") || 'new_york';
     if (cachedCity) {
       setLastSearchedCity(cachedCity);
     }
