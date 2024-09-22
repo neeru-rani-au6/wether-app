@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-`Create a .env file in the main directory and add your key. You can refer .enc.example`  
+`Create a .env file in the main directory and add your key. You can refer .env.example`  
 
 ## Available Scripts
 
